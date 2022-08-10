@@ -16,3 +16,8 @@ git init
 
 dvc init
 
+dvc add data...
+
+git add .
+
+git commit -m "first commit"
