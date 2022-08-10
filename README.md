@@ -1,14 +1,14 @@
-'''bash
+```bash
 create env
 
-'''bash
+```bash
 activate env
 
-'''bash
+```bash
 create requirements.txt
 
 install the requiremts
-'''bash
+```bash
 '''pip install -r requirements.txt'''
 
 
@@ -16,34 +16,34 @@ download data from kaggle winequality...
 
 https://drive.google.com/drive/folders/1xw0XX-WK74uxtFFLySbtnX-ODdmdK5Ec
 
-'''bash
+```bash
 git init
 
-'''bash
+```bash
 dvc init
 
-'''bash
+```bash
 dvc add data...
 
-'''bash
+```bash
 git add .
 
-'''bash
+```bash
 git commit -m "first commit"
 #for one line
 git add . && git commit -m "update README.md"
  
-'''bash
+```bash
 git add .
 
-'''bash
+```bash
 git commit -m "update README.md"
 
-'''bash
+```bash
 git remote add origin https://github.com/Neel7317/simple-dvc-demo.git
 
-'''bash
+```bash
 git branch -M main
 
-'''bash
+```bash
 git push -u origin main
