@@ -10,6 +10,7 @@ template.py
 tox.ini
 .dvc/.gitignore
 .dvc/config
+.tox/log/GLOB-0.log
 data/processed/.gitignore
 data/processed/.gitkeep
 data/raw/.gitignore
@@ -31,6 +32,7 @@ src.egg-info/PKG-INFO
 src.egg-info/SOURCES.txt
 src.egg-info/dependency_links.txt
 src.egg-info/top_level.txt
+src/__pycache__/__init__.cpython-37.pyc
 src/__pycache__/get_data.cpython-37.pyc
 tests/__init__.py
 tests/conftest.py

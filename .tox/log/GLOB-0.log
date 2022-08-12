@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: D:\MLOPS krish\New folder
-cmd: 'c:\users\dell\appdata\local\programs\python\python37\python.exe' setup.py sdist --formats=zip --dist-dir 'D:\MLOPS krish\New folder\.tox\dist'
+cmd: 'c:\users\dell\appdata\local\programs\python\python37\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
 running sdist
 running egg_info
 writing src.egg-info\PKG-INFO
@@ -14,6 +14,8 @@ warning: check: missing meta-data: if 'author' supplied, 'author_email' must be 
 
 creating src-0.0.1
 creating src-0.0.1\.dvc
+creating src-0.0.1\.tox
+creating src-0.0.1\.tox\log
 creating src-0.0.1\data
 creating src-0.0.1\data\processed
 creating src-0.0.1\data\raw
@@ -39,6 +41,7 @@ copying template.py -> src-0.0.1
 copying tox.ini -> src-0.0.1
 copying .dvc\.gitignore -> src-0.0.1\.dvc
 copying .dvc\config -> src-0.0.1\.dvc
+copying .tox\log\GLOB-0.log -> src-0.0.1\.tox\log
 copying data\processed\.gitignore -> src-0.0.1\data\processed
 copying data\processed\.gitkeep -> src-0.0.1\data\processed
 copying data\raw\.gitignore -> src-0.0.1\data\raw
@@ -60,6 +63,7 @@ copying src.egg-info\PKG-INFO -> src-0.0.1\src.egg-info
 copying src.egg-info\SOURCES.txt -> src-0.0.1\src.egg-info
 copying src.egg-info\dependency_links.txt -> src-0.0.1\src.egg-info
 copying src.egg-info\top_level.txt -> src-0.0.1\src.egg-info
+copying src\__pycache__\__init__.cpython-37.pyc -> src-0.0.1\src\__pycache__
 copying src\__pycache__\get_data.cpython-37.pyc -> src-0.0.1\src\__pycache__
 copying tests\__init__.py -> src-0.0.1\tests
 copying tests\conftest.py -> src-0.0.1\tests
@@ -68,10 +72,10 @@ copying tests\__pycache__\__init__.cpython-37.pyc -> src-0.0.1\tests\__pycache__
 copying tests\__pycache__\conftest.cpython-37-pytest-7.1.2.pyc -> src-0.0.1\tests\__pycache__
 copying tests\__pycache__\test_config.cpython-37-pytest-7.1.2.pyc -> src-0.0.1\tests\__pycache__
 Writing src-0.0.1\setup.cfg
-creating D:\MLOPS krish\New folder\.tox\dist
-creating 'D:\MLOPS krish\New folder\.tox\dist\src-0.0.1.zip' and adding 'src-0.0.1' to it
+creating '.tox\dist\src-0.0.1.zip' and adding 'src-0.0.1' to it
 adding 'src-0.0.1'
 adding 'src-0.0.1\.dvc'
+adding 'src-0.0.1\.tox'
 adding 'src-0.0.1\data'
 adding 'src-0.0.1\data_given'
 adding 'src-0.0.1\notebooks'
@@ -94,6 +98,8 @@ adding 'src-0.0.1\template.py'
 adding 'src-0.0.1\tox.ini'
 adding 'src-0.0.1\.dvc\.gitignore'
 adding 'src-0.0.1\.dvc\config'
+adding 'src-0.0.1\.tox\log'
+adding 'src-0.0.1\.tox\log\GLOB-0.log'
 adding 'src-0.0.1\data\processed'
 adding 'src-0.0.1\data\raw'
 adding 'src-0.0.1\data\processed\.gitignore'
@@ -115,6 +121,7 @@ adding 'src-0.0.1\src\split_data.py'
 adding 'src-0.0.1\src\train_and_evaluate.py'
 adding 'src-0.0.1\src\__init__.py'
 adding 'src-0.0.1\src\__pycache__\get_data.cpython-37.pyc'
+adding 'src-0.0.1\src\__pycache__\__init__.cpython-37.pyc'
 adding 'src-0.0.1\src.egg-info\dependency_links.txt'
 adding 'src-0.0.1\src.egg-info\PKG-INFO'
 adding 'src-0.0.1\src.egg-info\SOURCES.txt'
