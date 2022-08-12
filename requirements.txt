@@ -3,3 +3,4 @@ dvc[gdrive]
 sklearn
 pytest
 tox
+flake8
